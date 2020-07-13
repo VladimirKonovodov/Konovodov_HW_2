@@ -5,6 +5,7 @@ class ViewGroup() : View() {
         get() {
             TODO()
         }
+
     fun addView(view: View) {
     }
 }
