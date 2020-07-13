@@ -8,10 +8,7 @@ class Profile(
     val status: String,
     val avatar: String/*BitMap*/
 ) {
-    var fullname: String = ""
-        get() {
-            return "к доске пойдет " + name + " " + surname
-        }
-
+    val fullname: String
+        get() = "к доске пойдет $name $surname"
 
 }
